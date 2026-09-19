@@ -1,11 +1,12 @@
 # Changelog
 
 All notable changes are documented here. The project follows semantic version
-intent, while release publication remains deferred.
+intent. The reviewed `v1.0.0` source milestone is published on GitHub without
+prebuilt package assets.
 
 ## Unreleased
 
-- Pull-request review, branch standardization, and release publication.
+- Documentation alignment after `v1.0.0` publication.
 
 ## 1.0.0 - 2026-07-28
 

@@ -10,7 +10,9 @@ credential-safe diagnostics.
 live-tested. Private GitHub repository creation, push, verification, and cleanup
 were live-tested with the system-trust transport and local ignored credential
 source. IDE launching remains verified through isolated test boundaries and was
-not exercised by the live release test. Release publication remains deferred.
+not exercised by the live release test. The reviewed source milestone is
+published as [`v1.0.0`](https://github.com/mevorahde/project-creation-automation/releases/tag/v1.0.0);
+it has no prebuilt wheel or executable asset.
 
 ## Provenance and license
 
@@ -226,7 +228,8 @@ Dependabot proposes bounded weekly pip and GitHub Actions updates.
   verification, and cleanup; it deliberately selected `--ide none`.
 - IDE discovery and launching are verified through isolated adapter/process
   boundaries, not through the Stage 7 live release test.
-- Release publication and branch standardization are deferred.
+- The `v1.0.0` GitHub Release is a source milestone; install from a checkout or
+  a locally reviewed wheel because no prebuilt package asset is attached.
 - Only GitHub HTTPS remotes are supported.
 - Only VS Code and PyCharm are supported IDE choices.
 - Existing projects and repositories are never imported or adopted.
