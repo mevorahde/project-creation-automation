@@ -5,7 +5,8 @@
 Security fixes currently target the `1.0.0` release line on the active
 modernization branch. Earlier development stages and the retired legacy
 scripts are unsupported. The final version has completed reviewed live local
-and private GitHub integration testing. Release publication remains deferred.
+and private GitHub integration testing. The reviewed source milestone is
+published as `v1.0.0`; no prebuilt package asset is attached.
 
 ## Reporting
 

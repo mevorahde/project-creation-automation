@@ -42,7 +42,8 @@ def test_final_release_version_and_status_are_consistent() -> None:
     assert RELEASE_VERSION in (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
     security = (ROOT / "SECURITY.md").read_text(encoding="utf-8")
     assert "`1.0.0` release line" in security
-    assert "Release publication remains deferred" in security
+    assert "published as `v1.0.0`" in security
+    assert "no prebuilt package asset is attached" in security
 
     readme = " ".join(
         (ROOT / "README.md").read_text(encoding="utf-8").split()
